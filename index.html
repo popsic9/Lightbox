@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<title>Lightbox</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<button type="button" data-filter="all">All</button>
+	<button type="button" data-filter=".category-a">Landscapes</button>
+	<button type="button" data-filter=".category-b">Items</button>
+	<button type="button" data-filter=".category-c">Cold Places</button>
+	<button type="button" data-sort="order:asc">Ascending</button>
+	<button type="button" data-sort="order:descending">Descending</button>
+	<button type="button" data-sort="random">Random</button>
+	<div class = "gallery">
+		<a class="mix category-b" data-order="1" href="images/1.jpg" data-lightbox="pic" ><img src="images/1.jpg" alt="Trees in Rome"></a>
+		<a class="mix category-a" data-order="2" href="images/2.jpg" data-lightbox="pic"><img src="images/2.jpg" alt="Venice"></a>
+		<a class="mix category-a" data-order="3" href="images/3.jpg" data-lightbox="pic"><img src="images/3.jpg" alt="Night of Venice"></a>
+		<a class="mix category-b" data-order="4" href="images/4.jpg" data-lightbox="pic"><img src="images/4.jpg" alt="Bicycle"></a>
+		<a class="mix category-c" data-order="5" href="images/5.jpg" data-lightbox="pic"><img src="images/5.jpg" alt="Geneva"></a>
+		<a class="mix category-b" data-order="6" href="images/6.jpg" data-lightbox="pic"><img src="images/6.jpg" alt="Seville"></a>
+		<a class="mix category-c" data-order="7" href="images/7.jpg" data-lightbox="pic"><img src="images/7.jpg" alt="Iceland"></a>
+		<a class="mix category-a" data-order="8" href="images/8.jpg" data-lightbox="pic"><img src="images/8.jpg" alt="Siena"></a>
+		<a class="mix category-c" data-order="9" href="images/9.jpg" data-lightbox="pic"><img src="images/9.jpg" alt="Waterfall"></a>
+	</div>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/mixitup.js"></script>
+</body>
+</html>
